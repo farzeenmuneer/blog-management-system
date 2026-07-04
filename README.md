@@ -1,39 +1,38 @@
-# 📝 Blog Management System
+# Blog Management System
 
 
 
-A full-stack blog platform built with **Django REST Framework** and **React.js** featuring JWT authentication, dark/light mode, and a modern glass-morphism UI.
+A full-stack blog platform built with **Django REST Framework** and **React.js** featuring JWT authentication, and a modern glass-morphism UI.
 
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication & Authorization
+### Authentication & Authorization
 - JWT Authentication with access/refresh tokens
 - Secure login and logout
 - Protected routes for authenticated users
 - Custom `IsOwnerOrReadOnly` permission system
 
-### 📝 Blog Management
+### Blog Management
 - Create, read, update, and delete blog posts
 - Rich text content support
 - View posts by other users
 - Owner-only edit/delete permissions
 
-### 💬 Comment System
+### Comment System
 - Add comments on any post
 - Delete own comments
 - Real-time comment updates
 
-### 🎨 User Experience
-- 🌓 Dark/Light mode with persistent storage
-- 📱 Fully responsive design (mobile-first)
-- ✨ Smooth animations with Framer Motion
-- 🎨 Modern glass-morphism UI
-- 💫 Interactive hover effects
+### User Experience
+- Fully responsive design (mobile-first)
+- Smooth animations with Framer Motion
+- Modern glass-morphism UI
+- Interactive hover effects
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 | Technology | Version | Purpose |
@@ -57,7 +56,7 @@ A full-stack blog platform built with **Django REST Framework** and **React.js**
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
