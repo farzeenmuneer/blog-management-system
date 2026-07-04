@@ -1,0 +1,161 @@
+# ============================================
+# PYTHON / DJANGO
+# ============================================
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pythonenv*
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.sqlite
+*.db
+
+# Django specific
+*.log
+local_settings.py
+media/
+staticfiles/
+static/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Secret files
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+secrets.json
+config.json
+credentials.json
+
+# Test coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# NODE / REACT
+# ============================================
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+build/
+dist/
+.vercel/
+.next/
+out/
+public/build/
+
+# Dependency directories
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# IDE / EDITOR
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Linux
+*.swp
+*.swo
+*~
+
+# ============================================
+# MISC
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Uploads
+uploads/
+files/
+media/
+
+
